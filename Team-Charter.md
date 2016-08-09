@@ -1,19 +1,19 @@
 #Project Name <h1>
-Inner Ear Statistical Analaysis 
+#Inner Ear Statistical Analaysis <H2>
 
 #Vision<H1>
-The overall vision of this course and the project is to gain collaborative digital research skills 
+#The overall vision of this course and the project is to gain collaborative digital research skills <H2>
 
-Mission
-Produce something that is flexiable and can be easily modified if necessary 
+#Mission<h1>
+#Produce something that is flexiable and can be easily modified if necessary <h2>
 
-Success Criteria: 
-- Postively contribute to the project
+#Success Criteria: <h1>
+#- Postively contribute to the project
 - Produce a result that can be used in the future 
 - Everyone should pass
-- Be confident in at least one data analysis tool 
+- Be confident in at least one data analysis tool <h2>
 
-Team Agreement 
+#Team Agreement <h1>
 
 Behaivour Agreement 
 - When unsure ask
@@ -21,6 +21,7 @@ Behaivour Agreement
 - Be honest
 - Be sensible
 - Be smart your choices and words
+- Be positive
 
 Communication Agreement 
 - Be on time
