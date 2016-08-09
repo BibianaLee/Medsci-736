@@ -1,8 +1,11 @@
-Project Name: Inner Ear Statistical Analaysis 
+#Project Name <h1>
+Inner Ear Statistical Analaysis 
 
-Vision: The overall vision of this course and the project is to gain collaborative digital research skills 
+#Vision<H1>
+The overall vision of this course and the project is to gain collaborative digital research skills 
 
-Mission: Produce something that is flexiable and can be easily modified if necessary 
+Mission
+Produce something that is flexiable and can be easily modified if necessary 
 
 Success Criteria: 
 - Postively contribute to the project
