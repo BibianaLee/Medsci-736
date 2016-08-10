@@ -4,7 +4,7 @@
 
 ##Vision
 - Produce something that is flexiable and can be easily modified if necessary 
-- 
+
 ##Mission
 - Extracting the data from text files and highlight potential statistical differences between controls and LPS treated animals
 
