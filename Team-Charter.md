@@ -1,7 +1,7 @@
 #Inner Ear Statistical Analaysis 
 ##Project Vision
 
-##Vision
+###Vision
 - Produce a result i.e. an analysis/function that is flexiable and can be easily modified if necessary 
 
 ###Mission
