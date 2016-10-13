@@ -33,6 +33,7 @@
 
 ###Project Team 
 - Dr Jerome Plumat – Project Supervisor/ Project owner - j.plumat@auckland.ac.nz
-- Dr M Fabiana Kubke- Course Coordinator/ Development Team - f.kubke@auckland.ac.nz 
+- Dr M Fabiana Kubke- Course Coordinator/ Development Team/ MEDSCI Scrum Master - f.kubke@auckland.ac.nz 
 - Bibiana Lee - Developement Team - slee925@aucklanduni.ac.nz
+- Kreshnik Pireva - Mentor/Developement Team/ Group Scrum Master 
 - MEDSCI 736 classmates 
