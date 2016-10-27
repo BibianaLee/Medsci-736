@@ -28,3 +28,12 @@ This project could provide reference data that can in future be used to quantita
  - So the name should contain **a number** followed by a **D** then another **number**
  - For example: a file labeled **13D4** is an animal that has been imaged 13 times, 4 days after treatment 
 
+'''
+Welcome to Project IE
+your options are:
+ 
+1) One file
+2) Quit
+ 
+Choose your option: 
+'''
