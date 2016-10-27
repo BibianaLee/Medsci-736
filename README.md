@@ -114,7 +114,7 @@ This project could provide reference data that can in future be used to quantita
 ## Expected Output
 
 ##Limitations 
-   - The analysis and graph produced are for demonstrative purposes only. This is a prototype.
+   - The analysis and graph produced are for demonstrative purposes only. **This is a prototype**.
    - This prototype only checks for `#` and `empty spaces` as the MRI data text files not contain any other intrusive characters. Other characters such as a `@` may not detected by the software while parsing. It is therefore advised that the user **manually checks the file first if they are using their own data**.
    - The graph output is labeled "Your Graph" and will need to be manually re-named 
    - Once a file is in the programme it will be parsed and analyzed and it must run its course before you can quit and load another seperate file 
