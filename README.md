@@ -108,4 +108,4 @@ This project could provide reference data that can in future be used to quantita
       You may choose another option now.
       ```
  
- ###Once complete you can now exit the programme by typing `3`
+   **Once complete you can now exit the programme by typing `3`**
