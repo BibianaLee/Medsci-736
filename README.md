@@ -22,7 +22,8 @@ This project could provide reference data that can in future be used to quantita
   - Ubuntu 16.04 LTS 
 
 
-3. **Data File Requirements**
+##Data File Requirements
+
  - Data Files must be text files (.txt)
  - Files should be labeled like this: **(no.of images)D(no.days after treatment or non-treatment)**
  - So the name should contain **a number** followed by a **D** then another **number**
