@@ -140,9 +140,11 @@ This project could provide reference data that can in future be used to quantita
               6    0.0131  0.00923  0.0889  0.00411
               7    0.0024  0.00616  0.0385  0.00315
    ```
-### Graph 
 
-### one-way ANOVA 
+### Graph 
+The expected graph output can be found in the test folder and is called `Your_Graph_10D4.png`
+
+###one-way ANOVA 
 - The expected output for the dummy data should look like this: 
 
    ```
