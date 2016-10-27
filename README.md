@@ -59,6 +59,7 @@ This project could provide reference data that can in future be used to quantita
       
       ```
    **Example Raw Data** 
+   
    `aif,0,0.914,1.115,1.235,1.225,1.218,1.122,1.106,1.192,1.017,1.214`
    
    `time,0,120,220,320,420,520,620,820,920,1120,1220`
@@ -210,4 +211,6 @@ The expected graph output can be found in the test folder and is called `Your_Gr
    - This prototype only checks for `#` and `empty spaces` as the MRI data text files not contain any other intrusive characters. Other characters such as a `@` may not detected by the software while parsing. It is therefore advised that the user **manually checks the file first if they are using their own data**.
    - The graph output is labeled "Your Graph" and will need to be manually re-named 
    - Once a file is in the programme it will be parsed and analyzed and it must run its course before you can quit and load another separate file 
+   - This prototype is specifically for MRI text datafiles produced by an ongoing study so the labels must be present in the raw data or else the code will not work 
+   
 
