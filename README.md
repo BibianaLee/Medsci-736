@@ -35,28 +35,32 @@ This project could provide reference data that can in future be used to quantita
  
 3) Type in python project_IE.py in the command window 
 4) Once this is complete you should be greeted with the first menu 
-'''
-Welcome to Project IE
-your options are:
 
-1) One file
-2) Quit
-'''
-Choose your option:
+   ```
+   Welcome to Project IE
+   your options are:
 
+   1) One file
+   2) Quit
+
+   Choose your option:
+   ```
+   
+   - If you would like to exit the programme you can type `2` otherwise keep reading the instructions 
 ###Loading dummy data 
 1. Type `1`
  - If you enter an invalid number a message will appear saying 
    
-   ```The number you have entered is invalid please choose either option 1 or 2 ```
+   `The number you have entered is invalid please choose either option 1 or 2 `
+   
 2. Type in `10D4`
    - Your DataFrames should print now this should be followed by a message that reads: 
 
    ```
    Your graph has been plotted and saved
    You may choose another option now
+   
    ```
-
 3. The secondary  menu should greet you now
    ```
    What would you like to do now?
@@ -75,7 +79,7 @@ Choose your option:
    ```
    Your graph has been plotted and saved.
 
-   You may choose another option now
+   You may choose another option now.
    ```
 4. Once this is complete you will be greeted by the secondary menu again 
 
@@ -85,6 +89,7 @@ Choose your option:
    `One-way ANOVA followed by your P value` 
 3. An interpretation of your p-value should this output 
       - If it is significant (p-value = <0.05)
+      
       ```
       The differences between some of the means are statistically significant
      
@@ -93,6 +98,7 @@ Choose your option:
       You may choose another option now.
       ```
       - If it is not significant 
+      
       ```
       The differences between the means are not statistically significant
      
@@ -100,4 +106,5 @@ Choose your option:
 
       You may choose another option now.
       ```
-       
+ 
+ Once complete you can now exit the programme by typing `3`
