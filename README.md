@@ -45,8 +45,8 @@ This project could provide reference data that can in future be used to quantita
 
    Choose your option:
    ```
+   **If you would like to exit the programme you can type `2` otherwise keep reading the instructions**
    
-   - If you would like to exit the programme you can type `2` otherwise keep reading the instructions 
 ###Loading dummy data 
 1. Type `1`
  - If you enter an invalid number a message will appear saying 
