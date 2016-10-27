@@ -111,8 +111,56 @@ This project could provide reference data that can in future be used to quantita
  
    **Once complete you can now exit the programme by typing `3`**
    
-## Expected Output
+## Expected Output for Dummy Data
 
+### DataFrames 
+- The expected output for the dummy data should look like this for the Ktrans DataFrame 
+- A seperate text filed called `10D4_expected_output.txt` can be found in the test folder to compare your results 
+
+   ```
+   ---------------------------------------------------
+   Your Ktrans DataFrame
+   ---------------------------------------------------
+                     Mean      STD     Max      Min
+   Ktrans ID1 ID2                                  
+   ktrans 294 0    0.0123  0.00250  0.0326  0.00425
+              1    0.0115  0.00450  0.0224  0.00354
+              2    0.0121  0.00740  0.0422  0.00228
+              3    0.0098  0.00470  0.0253  0.00177
+              4    0.0187  0.00520  0.0309  0.00326
+              5    0.0121  0.00290  0.0468  0.00292
+              6    0.0073  0.00320  0.0103  0.00865
+              7    0.0041  0.00250  0.0276  0.00342
+          295 0    0.0123  0.00125  0.0326  0.00425
+              1    0.0118  0.00664  0.0133  0.00242
+              2    0.5411  0.00896  0.0505  0.00601
+              3    0.8471  0.00843  0.0554  0.00808
+              4    0.0676  0.01116  0.0939  0.00162
+              5    0.0199  0.00763  0.0045  0.00496
+              6    0.0131  0.00923  0.0889  0.00411
+              7    0.0024  0.00616  0.0385  0.00315
+   ```
+### Graph 
+
+### one-way ANOVA 
+- The expected output for the dummy data should look like this: 
+
+   ```
+   ___________________________________________________
+
+   One-way ANOVA P = 0.562677075784
+
+
+
+   The differences between the means are not statistically significant 
+
+
+   Your analysis is complete.
+   ___________________________________________________
+
+   You may choose another option now.
+   ```
+   
 ##Limitations 
    - The analysis and graph produced are for demonstrative purposes only. **This is a prototype**.
    - This prototype only checks for `#` and `empty spaces` as the MRI data text files not contain any other intrusive characters. Other characters such as a `@` may not detected by the software while parsing. It is therefore advised that the user **manually checks the file first if they are using their own data**.
