@@ -11,7 +11,7 @@ This data has been extracted from a set of MRI which measures the propagation of
 This project could provide reference data that can in future be used to quantitatively assess the treatment of ear disease in animal models and establish a platform from which such techniques can be transferred into clinical practice. 
 
 
-### Prerequisities
+## Prerequisities
 
 1. **Python**
    - Successful running of this programme will require Python 2.7.12
@@ -109,3 +109,11 @@ This project could provide reference data that can in future be used to quantita
       ```
  
    **Once complete you can now exit the programme by typing `3`**
+   
+## Expected Output
+
+##Limitations 
+   - The analysis and graph produced are for demonstrative purposes only. This is a prototype. 
+   - The graph output is labeled "Your Graph" and will need to be manually re-named 
+   - Once a file is in the programme it will be parsed and analyzed and it must run its course before you can quit and load another seperate file 
+
