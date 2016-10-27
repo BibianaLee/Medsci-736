@@ -29,6 +29,48 @@ This project could provide reference data that can in future be used to quantita
  - So the name should contain **a number** followed by a **D** then another **number**
  - For example: a file labeled **13D4** is an animal that has been imaged 13 times, 4 days after treatment 
  
+ ###Labels 
+ - The data file must contain the following labels. **This is a must**
+ - The Ktrans and Diffusion coefficient labels must be followed by four numbers 
+ - ID1 can be either 294 (Right ear) or 295 (Left ear) 
+ - ID2 is the height of the cochlear anatomy and ranges from 0 - 7 
+ 
+      ```
+      ## INPUTS ##
+
+      # arterial input function values
+      aif:
+
+      # time after fixed capture, in second
+      time:
+      
+      ## OUTPUTS ##
+      **k trans value, average value, std value, max and minimal values**
+      local-cochlea-bm.ktrans_ID1_ID2:val_mean,val_std,val_max,val_min
+      
+      **Pixel enhancement average value along the time**
+      local-cochlea-bm.enhan(t)_ID1_ID2:enhancement1,...
+      
+      **Pixel enhancement std value along the time**
+      local-cochlea-bm.std_enh(t)_ID1_ID2:std_enhancement1,...
+      
+      **Diffusion coefficient, average value, std value, maximal and minimal values**
+      local-cochlea-bm.difcoef_ID1_ID2:coef_mean,coef_std,coef_max,coef_min
+      
+      ```
+   **Example Raw Data** 
+   `aif,0,0.914,1.115,1.235,1.225,1.218,1.122,1.106,1.192,1.017,1.214`
+   
+   `time,0,120,220,320,420,520,620,820,920,1120,1220`
+   
+   `local-cochlea-bm.mha_ktrans_294_0,0.0123,0.0025,0.0326,0.00425`
+   
+   `local-cochlea-bm.mha_enhanc(t)_294_0,3.926,5.013,4.329,4.426,5.036,4.627,4.858,3.364,4.764,4.247`
+   
+   `local-cochlea-bm.mha_std_enh(t)_294_0,2.015,2.706,2.263,2.251,2.696,2.342,2.487,1.985,2.219,2.405`
+   
+   `local-cochlea-bm.mha_difcoef_294_0,0.0123,0.0025,0.0326,0.00425`
+   
 ##Running the programme using the test data
 ###Loading project_IE.py
 1) Download the test_Project_IE folder and transfer the project_IE.py
