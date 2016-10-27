@@ -90,7 +90,7 @@ This project could provide reference data that can in future be used to quantita
 2. A message should appear saying: 
    `One-way ANOVA followed by your P value` 
 3. An interpretation of your p-value should this output 
-      - If it is significant (p-value = <0.05)
+      - If it is significant (p-value <0.05)
       
       ```
       The differences between some of the means are statistically significant
@@ -99,7 +99,7 @@ This project could provide reference data that can in future be used to quantita
 
       You may choose another option now.
       ```
-      - If it is not significant 
+      - If it is not significant (p-value >0.05)
       
       ```
       The differences between the means are not statistically significant
