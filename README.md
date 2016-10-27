@@ -58,6 +58,7 @@ This project could provide reference data that can in future be used to quantita
 
    ```
    Your graph has been plotted and saved
+   
    You may choose another option now
    
    ```
@@ -78,7 +79,7 @@ This project could provide reference data that can in future be used to quantita
 3. A new message will appear 
    ```
    Your graph has been plotted and saved.
-
+   
    You may choose another option now.
    ```
 4. Once this is complete you will be greeted by the secondary menu again 
@@ -107,4 +108,4 @@ This project could provide reference data that can in future be used to quantita
       You may choose another option now.
       ```
  
- Once complete you can now exit the programme by typing `3`
+ ###Once complete you can now exit the programme by typing `3`
