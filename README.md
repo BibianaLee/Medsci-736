@@ -114,7 +114,8 @@ This project could provide reference data that can in future be used to quantita
 ## Expected Output
 
 ##Limitations 
-   - The analysis and graph produced are for demonstrative purposes only. This is a prototype. 
+   - The analysis and graph produced are for demonstrative purposes only. This is a prototype.
+   - This prototype only checks for **#** and empty spaces. Other characters such as a @ may not detected by the software while parsing it is therefore advised that the user manually checks the file first 
    - The graph output is labeled "Your Graph" and will need to be manually re-named 
    - Once a file is in the programme it will be parsed and analyzed and it must run its course before you can quit and load another seperate file 
 
